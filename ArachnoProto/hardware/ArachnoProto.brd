@@ -3953,10 +3953,11 @@ design rules under a new name.
 <wire x1="53.34" y1="61.595" x2="53.34" y2="62.36" width="0.3048" layer="1"/>
 <wire x1="53.34" y1="62.36" x2="53.245" y2="62.455" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$105">
+<signal name="N$353">
 <via x="9.525" y="70.485" extent="1-16" drill="1.016" shape="square"/>
+</signal>
+<signal name="N$105">
 <via x="9.525" y="73.025" extent="1-16" drill="1.016" shape="square"/>
-<wire x1="9.525" y1="70.485" x2="9.525" y2="73.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$120">
 <via x="12.065" y="70.485" extent="1-16" drill="1.016" shape="square"/>
