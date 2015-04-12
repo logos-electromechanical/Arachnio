@@ -17,6 +17,10 @@
 */
 
 void setup() {
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
   Serial.begin(115200);   
   while (!Serial);        // Wait for the USB serial to connect
   Serial1.begin(9600);    // Default speed of the 
