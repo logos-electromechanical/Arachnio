@@ -17,6 +17,10 @@
 */
 
 void setup() {
+  char buf[1024];
+  long start;
+  uint16_t index = 0;
+  
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   digitalWrite(2, HIGH);
@@ -24,6 +28,7 @@ void setup() {
   Serial.begin(115200);   
   while (!Serial);        // Wait for the USB serial to connect
   Serial1.begin(9600);    // Default speed of the 
+  Serial.println("I live!");
 }
 
 void loop() {
