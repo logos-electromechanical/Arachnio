@@ -13547,7 +13547,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="U$7" library="MyPOW" deviceset="VIN" device=""/>
 <part name="U$8" library="MyPOW" deviceset="3V3" device=""/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C0603" value="100n">
-<attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/50V/0603"/>
 </part>
 <part name="U$19" library="MyPOW" deviceset="VIN" device=""/>
 <part name="U$23" library="MyPOW" deviceset="VUSB" device=""/>
@@ -13566,7 +13566,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" value="CG0603MLC-05E"/>
 </part>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0402" value="10K">
-<attribute name="PARTNO" value="RNCP0603FTD10K0"/>
+<attribute name="PARTNO" value="generic resistor:10K/0402"/>
 </part>
 <part name="L" library="led" deviceset="LED" device="CHIP-LED0603" value="GRN">
 <attribute name="PARTNO" value="LTST-C191KGKT"/>
@@ -13578,13 +13578,13 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" value="LB Q39G-L2N2-35-1"/>
 </part>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0402" value="1K">
-<attribute name="PARTNO" value="RMCF0603FT1K00"/>
+<attribute name="PARTNO" value="generic resistor:1K/0402"/>
 </part>
 <part name="R7" library="resistor" deviceset="R-EU_" device="R0402" value="1K">
-<attribute name="PARTNO" value="RMCF0603FT1K00"/>
+<attribute name="PARTNO" value="generic resistor:1K/0402"/>
 </part>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0402" value="1K">
-<attribute name="PARTNO" value="RMCF0603FT1K00"/>
+<attribute name="PARTNO" value="generic resistor:1K/0402"/>
 </part>
 <part name="F1" library="rcl" deviceset="L-EU" device="L1812" value="500mA">
 <attribute name="PARTNO" value="MF-MSMF050-2"/>
@@ -13597,25 +13597,27 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="J5" library="SmartPrj" deviceset="HEAD17-NOSS" device="">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="PREC017SAAN-RC"/>
 </part>
 <part name="J6" library="SmartPrj" deviceset="HEAD17-NOSS-1" device="" value="HEAD17-NOSS">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="PREC017SAAN-RC"/>
 </part>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0402" value="10K">
-<attribute name="PARTNO" value="RNCP0603FTD10K0"/>
+<attribute name="PARTNO" value="generic resistor:10K/0402"/>
 </part>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME4" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="CN1" library="SparkFun-Connectors" deviceset="USB-AB" device="">
-<attribute name="PARTNO" value="USB-M26FTR"/>
+<attribute name="PARTNO" value="10104111-0001LF"/>
 </part>
 <part name="U$4" library="MyPOW" deviceset="3V3" device=""/>
 <part name="U$5" library="MyPOW" deviceset="3V3" device=""/>
 <part name="RN1" library="res-cap-arrays" deviceset="2R-N" device="EXBV4V" value="27R">
-<attribute name="PARTNO" value=""/>
+<attribute name="PARTNO" value="EXB-V4V270JV"/>
 </part>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="U5" library="ESP8266" deviceset="ESP8266" device="EX">
@@ -13625,26 +13627,26 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" value="SST25VF512A-33-4C-SAE"/>
 </part>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0402" value="12K">
-<attribute name="PARTNO" value="RMCF0603FT12K0"/>
+<attribute name="PARTNO" value="generic resistor:12K/0402"/>
 </part>
 <part name="RST" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value="">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="MCR03ERTJ000"/>
 </part>
 <part name="R13" library="resistor" deviceset="R-EU_" device="R0402" value="200R">
-<attribute name="PARTNO" value="MCR03ERTJ201"/>
+<attribute name="PARTNO" value="generic resistor:200R/0402"/>
 </part>
 <part name="C16" library="resistor" deviceset="C-EU" device="C0402" value="10 pF">
-<attribute name="PARTNO" value="C0603C100K5GACTU"/>
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="C17" library="resistor" deviceset="C-EU" device="C0402" value="10 pF">
-<attribute name="PARTNO" value="C0603C100K5GACTU"/>
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="C18" library="resistor" deviceset="C-EU" device="C0402" value="5p6">
-<attribute name="PARTNO" value="251R14S5R6CV4T"/>
+<attribute name="PARTNO" value=""/>
 </part>
 <part name="C19" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 </part>
 <part name="U$3" library="MyPOW" deviceset="3V3" device=""/>
 <part name="U$9" library="MyPOW" deviceset="3V3" device=""/>
@@ -13659,19 +13661,19 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" value="KMR221NG"/>
 </part>
 <part name="R14" library="resistor" deviceset="R-EU_" device="R0402" value="10K">
-<attribute name="PARTNO" value="RNCP0603FTD10K0"/>
+<attribute name="PARTNO" value="generic resistor:10K/0402"/>
 </part>
 <part name="Y1" library="SmartPrj" deviceset="CRYSTAL-3.2-2.5" device="" value="26 MHz/10 pF">
 <attribute name="PARTNO" value="403C11A26M00000"/>
 </part>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL10A475KA8NQNC"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/25V/0603"/>
 </part>
 <part name="C4" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL10A475KA8NQNC"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/25V/0603"/>
 </part>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL10A475KA8NQNC"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/25V/0603"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="U$11" library="ant-planar-1" deviceset="ANTENNA_1" device="RIGHT">
@@ -13682,35 +13684,43 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" value="AP2111H-3.3TRG1"/>
 </part>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="1uF">
-<attribute name="PARTNO" value="C0603C105K3PACTU"/>
+<attribute name="PARTNO" value="generic MLCC:1u/25V/0603"/>
 </part>
 <part name="Q1" library="logos-crystals" deviceset="PRQC" device="" value="12MHz">
-<attribute name="PARTNO" value=""/>
+<attribute name="PARTNO" value="PRQC12.00CR1010V00L"/>
 </part>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="TP3" library="testpad" deviceset="PTR1" device="TP15SQ">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0402" value="10K">
-<attribute name="PARTNO" value="RNCP0603FTD10K0"/>
+<attribute name="PARTNO" value="generic resistor:10K/0402"/>
 </part>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0402" value="10K">
-<attribute name="PARTNO" value="RNCP0603FTD10K0"/>
+<attribute name="PARTNO" value="generic resistor:10K/0402"/>
 </part>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD123"/>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD123"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD123">
+<attribute name="PARTNO" value="CDBW140-G"/>
+</part>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD123">
+<attribute name="PARTNO" value="CDBW140-G"/>
+</part>
 <part name="U$2" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="ERASE" library="adafruit" deviceset="SPST_TACT" device="-KMR2" value="">
 <attribute name="PARTNO" value="KMR221NG"/>
 </part>
-<part name="U1" library="atmel-sam3s" deviceset="SAM3S*A" device="-MU"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="U1" library="atmel-sam3s" deviceset="SAM3S*A" device="-MU">
+<attribute name="PARTNO" value="ATSAM4S2AA-MU"/>
+</part>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0402" value="100n">
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
+</part>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="L1" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="10u/100mA">
@@ -13718,83 +13728,89 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </part>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C11" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
-<part name="C12" library="resistor" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="C12" library="resistor" deviceset="C-EU" device="C0402" value="100n">
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
+</part>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0603" value="2u2">
-<attribute name="PARTNO" value="JMK107BJ225KAHT"/>
+<attribute name="PARTNO" value="generic MLCC:2u2/6V3/0603"/>
 <attribute name="VOLTAGE" value="6V3"/>
 </part>
 <part name="C20" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C21" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C22" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C23" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C24" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C25" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C26" library="resistor" deviceset="C-EU" device="C0603" value="4u7">
-<attribute name="PARTNO" value="CL21F475ZPFNNNE"/>
+<attribute name="PARTNO" value="generic MLCC:4u7/10V/0603"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C27" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C28" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C29" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="U$13" library="MyPOW" deviceset="3V3" device=""/>
 <part name="U$15" library="MyPOW" deviceset="3V3" device=""/>
-<part name="LOAD/OTA" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NO" device="YES_SILK" value=""/>
+<part name="LOAD/OTA" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NO" device="YES_SILK" value="">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 <part name="R9" library="resistor" deviceset="R-EU_" device="R0402" value="10K">
-<attribute name="PARTNO" value="RNCP0603FTD10K0"/>
+<attribute name="PARTNO" value="generic resistor:10K/0402"/>
 </part>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
-<part name="Y2" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="EPSONMC146"/>
+<part name="Y2" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="EPSONMC146">
+<attribute name="PARTNO" value="MC-146 32.768KA-AC3"/>
+</part>
 <part name="U$18" library="MyPOW" deviceset="3V3" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="U$20" library="MyPOW" deviceset="3V3" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="C15" library="resistor" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="PARTNO" value="CC0402KRX7R7BB104"/>
+<attribute name="PARTNO" value="generic MLCC:100n/16V/0402"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="SUPPLY9" library="supply2" deviceset="VCC" device=""/>
@@ -13819,9 +13835,11 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="SUPPLY15" gate="GND" x="43.18" y="91.44"/>
 <instance part="J5" gate="G$1" x="55.88" y="121.92" rot="MR0">
 <attribute name="PARTNO" x="55.88" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="55.88" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J6" gate="G$1" x="81.28" y="121.92">
 <attribute name="PARTNO" x="81.28" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="81.28" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="170.18" y="88.9" rot="MR0">
 <attribute name="PARTNO" x="170.18" y="88.9" size="1.778" layer="96" display="off"/>
@@ -14318,12 +14336,16 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" x="104.14" y="119.38" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="104.14" y="106.68" rot="MR0"/>
-<instance part="U1" gate="G$1" x="58.42" y="91.44"/>
+<instance part="U1" gate="G$1" x="58.42" y="91.44">
+<attribute name="PARTNO" x="58.42" y="91.44" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="U1" gate="G$4" x="58.42" y="129.54"/>
 <instance part="U1" gate="G$5" x="58.42" y="53.34"/>
 <instance part="U1" gate="G$6" x="58.42" y="165.1"/>
 <instance part="SUPPLY27" gate="GND" x="63.5" y="88.9" rot="MR0"/>
-<instance part="Y2" gate="G$1" x="91.44" y="55.88" rot="R180"/>
+<instance part="Y2" gate="G$1" x="91.44" y="55.88" rot="R180">
+<attribute name="PARTNO" x="91.44" y="55.88" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="U$20" gate="G$1" x="99.06" y="170.18" rot="R270"/>
 <instance part="SUPPLY8" gate="GND" x="96.52" y="73.66" rot="MR270"/>
 </instances>
@@ -14653,12 +14675,18 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="C1" gate="G$1" x="78.74" y="137.16">
 <attribute name="PARTNO" x="78.74" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="20.32" y="152.4" rot="R270"/>
-<instance part="D2" gate="G$1" x="27.94" y="152.4" rot="R270"/>
+<instance part="D1" gate="G$1" x="20.32" y="152.4" rot="R270">
+<attribute name="PARTNO" x="20.32" y="152.4" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="D2" gate="G$1" x="27.94" y="152.4" rot="R270">
+<attribute name="PARTNO" x="27.94" y="152.4" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="U$2" gate="G$1" x="20.32" y="160.02" rot="MR0"/>
 <instance part="U1" gate="G$2" x="243.84" y="127" rot="MR0"/>
 <instance part="U1" gate="G$3" x="195.58" y="106.68" rot="MR0"/>
-<instance part="C2" gate="G$1" x="236.22" y="119.38"/>
+<instance part="C2" gate="G$1" x="236.22" y="119.38">
+<attribute name="PARTNO" x="236.22" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C5" gate="G$1" x="226.06" y="119.38">
 <attribute name="PARTNO" x="226.06" y="119.38" size="1.27" layer="96" display="off"/>
 <attribute name="VOLTAGE" x="226.06" y="119.38" size="1.27" layer="96" display="off"/>
@@ -14683,7 +14711,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" x="101.6" y="137.16" size="1.27" layer="96" display="off"/>
 <attribute name="VOLTAGE" x="101.6" y="137.16" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="231.14" y="162.56" rot="R90"/>
+<instance part="C12" gate="G$1" x="231.14" y="162.56" rot="R90">
+<attribute name="PARTNO" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY16" gate="GND" x="226.06" y="157.48"/>
 <instance part="C13" gate="G$1" x="111.76" y="137.16">
 <attribute name="PARTNO" x="111.76" y="137.16" size="1.27" layer="96" display="off"/>
@@ -15070,9 +15100,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="PARTNO" x="137.16" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="20.32" y="81.28"/>
-<instance part="U$11" gate="G$1" x="15.24" y="116.84" rot="MR0">
-<attribute name="PARTNO" x="15.24" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="BOM" x="15.24" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="U$11" gate="G$1" x="12.7" y="116.84">
+<attribute name="PARTNO" x="12.7" y="116.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="BOM" x="12.7" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP3" gate="G$1" x="132.08" y="38.1">
 <attribute name="BOM" x="132.08" y="38.1" size="1.778" layer="96" display="off"/>
@@ -15106,7 +15136,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="SUPPLY19" gate="GND" x="121.92" y="60.96"/>
 <instance part="U$13" gate="G$1" x="129.54" y="60.96" rot="R180"/>
 <instance part="U$15" gate="G$1" x="149.86" y="48.26" rot="R270"/>
-<instance part="LOAD/OTA" gate="G$1" x="144.78" y="60.96"/>
+<instance part="LOAD/OTA" gate="G$1" x="144.78" y="60.96">
+<attribute name="BOM" x="144.78" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15178,7 +15210,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="104.14" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="U$11" gate="G$1" pin="GND"/>
@@ -15321,7 +15353,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <net name="N$31" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="106.68" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="RF"/>
 </segment>
 </net>
