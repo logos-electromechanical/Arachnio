@@ -6718,7 +6718,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND3" gate="1" x="215.9" y="63.5"/>
 <instance part="+3V6" gate="G$1" x="251.46" y="185.42"/>
 <instance part="GND8" gate="1" x="251.46" y="154.94"/>
-<instance part="JP3" gate="G$1" x="241.3" y="170.18"/>
+<instance part="JP3" gate="G$1" x="241.3" y="170.18" rot="MR0"/>
 <instance part="JP4" gate="G$1" x="238.76" y="142.24" rot="R180"/>
 <instance part="GND5" gate="1" x="231.14" y="127"/>
 <instance part="+3V1" gate="G$1" x="231.14" y="160.02"/>
@@ -6866,6 +6866,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP1" gate="G$1" pin="5"/>
 <pinref part="J1" gate="G$1" pin="39"/>
 <junction x="121.92" y="152.4"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="10"/>
+<wire x1="236.22" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
+<label x="223.52" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -7066,13 +7071,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="251.46" y1="157.48" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="157.48" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="9"/>
+<wire x1="251.46" y1="165.1" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="170.18" x2="251.46" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="165.1" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="246.38" y1="172.72" x2="251.46" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="172.72" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="5"/>
 <wire x1="246.38" y1="170.18" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
 <junction x="251.46" y="170.18"/>
-<pinref part="JP3" gate="G$1" pin="4"/>
-<pinref part="JP3" gate="G$1" pin="6"/>
+<junction x="251.46" y="165.1"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="6"/>
@@ -7138,7 +7147,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="236.22" y1="172.72" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
 <label x="223.52" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="D7/SWDIO" class="0">
@@ -7154,7 +7163,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="236.22" y1="175.26" x2="223.52" y2="175.26" width="0.1524" layer="91"/>
 <label x="223.52" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ERASE" class="0">
@@ -7179,9 +7188,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="162.56" y="144.78"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
-<label x="223.52" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="9"/>
+<wire x1="236.22" y1="170.18" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
+<label x="223.52" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP3" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7354,8 +7363,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="251.46" y1="182.88" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="175.26" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
